@@ -95,7 +95,7 @@ public class BitzCommands extends JavaPlugin {
 		getCommand("checkbanned", new CheckBannedCommand());
 		getCommand("heal", new HealCommand());
 		getCommand("freeze", new FreezeCommand());
-		getCommand("item", new GiveCommand());
+		getCommand("give", new GiveCommand());
 		getCommand("gm", new GamemodeCommand());
 		getCommand("god", new GodCommand());
 		getCommand("god", new UngodCommand());
