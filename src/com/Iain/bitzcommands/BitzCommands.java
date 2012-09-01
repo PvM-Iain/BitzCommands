@@ -81,7 +81,7 @@ public class BitzCommands extends JavaPlugin {
 		PluginManager pm = getServer().getPluginManager();
 		pm.registerEvents(new playerListener(), this);
 		pm.registerEvents(new blockListener(), this);
-		this.logger.info("[BitzCommands] Initializin Events.");
+		this.logger.info("[BitzCommands] Initializing Events.");
 	}
 	public void getCommands() {
 		getCommand("afk", new AFKCommand());
