@@ -145,16 +145,6 @@ public class BitzCommands extends JavaPlugin {
 		  	getConfig().addDefault("BitzCommands.Player.No join message", false);
 		  	getConfig().addDefault("BitzCommands.Player.No quit message", false);
 		  	getConfig().addDefault("BitzCommands.Player.God.Effect when hit", false);
-		  	getConfig().addDefault("BitzCommands.Protection.Prevent.Placing.Bedrock", false);
-		  	getConfig().addDefault("BitzCommands.Protection.Prevent.Placing.Fire", false);
-		  	getConfig().addDefault("BitzCommands.Protection.Prevent.Placing.Flint and Steel", false);
-		  	getConfig().addDefault("BitzCommands.Protection.Prevent.Placing.Ice", false);
-		  	getConfig().addDefault("BitzCommands.Protection.Prevent.Placing.Lava", false);
-		  	getConfig().addDefault("BitzCommands.Protection.Prevent.Placing.Lava Buckets", false);
-		  	getConfig().addDefault("BitzCommands.Protection.Prevent.Placing.Obsidian", false);
-		  	getConfig().addDefault("BitzCommands.Protection.Prevent.Placing.TnT", false);
-		  	getConfig().addDefault("BitzCommands.Protection.Prevent.Placing.Water", false);
-		  	getConfig().addDefault("BitzCommands.Protection.Prevent.Placing.Water Buckets", false);
 		    getConfig().options().copyDefaults(true);
 		    saveConfig();
 	  }
