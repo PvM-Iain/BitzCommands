@@ -24,6 +24,7 @@ import com.Iain.bitzcommands.commands.HomeCommand;
 import com.Iain.bitzcommands.commands.InventClearCommand;
 import com.Iain.bitzcommands.commands.InvseeCommand;
 import com.Iain.bitzcommands.commands.IpCommand;
+import com.Iain.bitzcommands.commands.MuteCommand;
 import com.Iain.bitzcommands.commands.PingCommand;
 import com.Iain.bitzcommands.commands.SpawnmobCommand;
 import com.Iain.bitzcommands.commands.UngodCommand;
@@ -103,7 +104,7 @@ public class BitzCommands extends JavaPlugin {
 		getCommand("kick", new CommandKick());
 		getCommand("kill", new CommandKill());
 		getCommand("location", new CommandLocation());
-		getCommand("mute", new CommandMute());
+		getCommand("mute", new MuteCommand());
 		getCommand("nuke", new CommandNuke());
 		getCommand("ping", new PingCommand());
 		getCommand("jump", new CommandJump());
