@@ -32,6 +32,7 @@ import com.Iain.bitzcommands.commands.KillCommand;
 import com.Iain.bitzcommands.commands.MuteCommand;
 import com.Iain.bitzcommands.commands.NukeCommand;
 import com.Iain.bitzcommands.commands.PingCommand;
+import com.Iain.bitzcommands.commands.ReappearCommand;
 import com.Iain.bitzcommands.commands.SpawnmobCommand;
 import com.Iain.bitzcommands.commands.UngodCommand;
 import com.Iain.bitzcommands.commands.VanishCommand;
